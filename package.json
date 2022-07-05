@@ -1,0 +1,19 @@
+{
+  "name": "changelog-notion-poc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "node ./dist/index.js",
+    "build": "yarn tsc",
+    "dev": "yarn tsc && node ./dist/index.js"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "@notionhq/client": "^1.0.4",
+    "dotenv": "^16.0.1"
+  }
+}
